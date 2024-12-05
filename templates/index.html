@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="sticky_scroll">
+    <header class="body_header">
+        <div>
+            <a href="#opening"><img class="icon" src="images/hw-logo-vyrobni-report.svg" alt="Logo"></a>
+            <a href="#opening" class="text_hide">{{ section.title }}</a>   
+        </div>
+        
+        <div>
+            <a href="#contact"><button>Chci osobní konzultaci</button></a>
+        </div>
+    </header>
+</div>
+
+<article>
+
+    <section id="opening" class="section">
+        <div class="introduction">
+            <h1>Bezdrátový<br> IoT monitoring<br> vaší výroby</h1>
+            <p>Snadný, bezpečný a dostupný monitoring je nezbytný pro každou výrobu. Kromě okamžitého přehledu o stavu výroby, přináší nemalé finanční úspory. Například díky možnosti lépe plánovat údržbu.</p>
+            <p>Nelamte si hlavu s tím jak sbírat data pro analýzu vaší výroby. Už jsme to vymysleli pro vás.</p>
+            <p>Instalace probíhá rychle a bez nutnosti jakéhokoliv zásahu do vaší IT infrastruktury.</p>
+        </div>
+        <img class="report_bg" src="images/vyrobni-report.svg" width="800" height="650" alt="Bezdrátový monitoring">
+    </section>
+    
+    <section class="customers section">
+        <p>Naše monitorovací řešení již využívají například tito zákazníci:</p>
+        <div class="customers_logos">
+            <img src="images/tpca.svg" alt="Logo T|P|C|A">
+            <img src="images/tokoz.svg" alt="Logo Tokoz">
+            <img src="images/skoda.svg" alt="Logo Škoda">
+            <img src="images/ammeraal.svg" alt="Logo Ammeraal">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="cards">
+            {% for card in config.extra.cards %}
+            <div class="card">
+                <i class="fas {{ card.icon }}"></i>
+                <h3>{{ card.title }}</h3>
+                <p>{{ card.text }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="background">
+        <div class="section">
+            <h2>Funkce IoT monitoringu</h2>
+            <p>Máme pro vás připraveno mnoho nástrojů, které Vám pomůžou s monitoringem výroby.</p>
+            <div class="monitoring">
+                <img src="images/Chester-mobile.webp" alt="Chester app">
+                <div class="features">
+                    {% for feature in config.extra.features %}
+                    <div class="feature">
+                        <div class="feature_header">
+                            <i class="fas {{ feature.icon }}"></i>
+                            <h3>{{ feature.title }}</h3>
+                        </div>
+                        <p>{{ feature.text }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section data">
+        <img src="images/Counter.webp" alt="Chester Counter">
+        <div class="data_text">
+            <h2>Detailní data o každém stroji</h2>
+            <p>Můžete ihned využívat předpřipravené dashboardy a nebo vám připravíme dashboard na přání.</p>
+        </div>
+    </section>
+
+    <section class="section data reverse">
+        <img src="images/Motion-just-graphs.webp" alt="Chester Motion">
+        <div class="data_text">
+            <h2>Monitorujte výrobu ze všech možných úhlů</h2>
+            <p>Potřebujete například vědět v jaké uličce ve vaší výrobě je největší frekvence průchodů? Není problém, i taková data je možné snímat a zobrazit přehlednou formou.</p>
+        </div>
+    </section>
+
+    <section class="section data">
+        <img src="images/Push.png" class="chester_push" alt="Chester Push">
+        <div class="data_text">
+            <h2>Základní sada pro monitoring nyní za zvýhodněnou cenu</h2>
+            <p>Na závěr roku jsme pro vás připravili speciální akční nabídku.</p>
+            <p>Jednotná cena pro jednu z těchto základních sad je pouze:</p>
+            <p class="prize"><strong>29.000 Kč</strong></p>
+            <p>Cena konektivity a cloudové službě na dobu 3 roky ke každé sadě je:</p>
+            <p class="prize"><strong>990 Kč/rok</strong></p>
+            <p>Můžete si vybrat z následujících sad:</p>
+            <ul>
+                <li>Sada <strong>Výrobní TAKT</strong><br>(2 x CHESTER Counter)</li>
+                <li>Sada <strong>Výrobní ANDON</strong><br>(2 x CHESTER Push)</li>
+                <li>Sada <strong>Výrobní ANDON</strong> + <strong>Výrobní TAKT</strong><br>(1 x CHESTER Counter + 1 x CHESTER Push)</li>
+                <li>Sada <strong>Výrobní STROJ</strong><br>(2x CHESTER Current - každý s 3x proudovou sondou)</li>
+            </ul>
+            <p><i>Poznámka: Všechny ceny jsou uvedeny bez DPH.</i></p>
+        </div>
+     </section>
+
+     <section class="section" id="contact">
+        <h2>Chcete vědět více? Kontaktujte nás</h2>
+        <p>Máte-li zájem o více informací, zanechte nám  svůj kontakt a domluvíme si s vámi schůzku, kde rádi zodpovíme všechny vaše otázky. Pokud vás zaujala konkrétní sada, dejte nám to vědět v komentáři. Jestli si zatím nejste jistí, nevadí – společně pro vás najdeme to nejlepší řešení.</p>
+
+        <form action="" method="POST" class="contact_form">
+            <div class="input">
+                <label for="name">Křestní jméno</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input">
+                <label for="surname">Příjmení</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input">
+                <label for="subject">Předmět</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="input">
+                <label for="message">Vaše zpráva</label>
+                <input type="text" id="message" name="message">
+            </div>
+            <button type="submit">Odeslat</button>
+        </form>
+     </section>
+
+    <section class="background">
+        <div class="section">
+            <div>
+                <h2>Vaše nejčastější dotazy</h2>
+            </div>
+            <div class="drop_down">
+                {% for faq in config.extra.faqs %}
+                <div class="drop_down_item">
+                    <details>
+                        <summary>
+                    <h3 class="drop_down_header">
+                        <span class="title_text">{{ faq.question }}</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                    </summary>
+                    <div class="drop_down_body">
+                        <p>{{ faq.answer }}</p>
+                    </div>
+                    </details>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+</article>
+
+
+{% endblock %}

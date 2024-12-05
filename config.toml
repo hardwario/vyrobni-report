@@ -1,0 +1,77 @@
+# The URL the site will be built for
+base_url = "https://vyrobni.report"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+
+[[extra.cards]]
+icon = "fa-code-branch"
+title = "Rychle a bezstarostně"
+text = "Instalaci zahájíme do 30 dnů a potrvá jen desítky minut. Provoz omezíme minimálně, nebo vůbec."
+
+[[extra.cards]]
+icon = "fa-chart-line"
+title = "Okamžitá data z provozu"
+text = "Ihned po instalaci uvidíte data z výroby ve vašem telefonu i počítači."
+
+[[extra.cards]]
+icon = "fa-child"
+title = "Záruka spokojenosti"
+text = "Pokud nebudete spokojeni, můžete nám zařízení do 100 dnů vrátit."
+
+[[extra.features]]
+icon = "fa-chart-line"
+title = "Efektivita výroby"
+text = "Měřte takt, kvalitu => sledujte OEE"
+
+[[extra.features]]
+icon = "fa-mobile-alt"
+title = "Notifikace a eskalace"
+text = "Sledujte notifikace v mobilních aplikaci"
+
+[[extra.features]]
+icon = "fa-temperature-high"
+title = "Environmentální monitoring"
+text = "Sledování vnitřního prostředí má velký vliv na kvalitu výroby"
+
+[[extra.features]]
+icon = "fa-chart-bar"
+title = "Analytika a reporting"
+text = "Sledujte stav kdykoliv potřebujete, ne jen ve chvílích kdy někdo sestaví a přinese report"
+
+[[extra.features]]
+icon = "fa-puzzle-piece"
+title = "Integrace"
+text = "Naše API Vám umožní jednoduchou integraci s dalšími systémy"
+
+[[extra.features]]
+icon = "fa-tachometer-alt"
+title = "Spotřeby energií"
+text = "Sledujte online spotřebu elektřiny, vody, vzduchu či plynu."
+
+[[extra.faqs]]
+question = "Jak probíhá instalace?"
+answer = "Instalace je velmi jednoduchá. Skoro každý stroj má nějaké signály, pomocí kterých lze vyhodnotit jestli stroj dokončil výrobu produktu OK nebo NOK. Pokud ani takový signál není k dispozici, lze použít doplňující senzor nebo tlačítko, kterým se výroba kusu identifikuje."
+
+[[extra.faqs]]
+question = "Je možné sledovat i výrobu kontinuálních strojů jako je CNC?"
+answer = "Ano, naše zařízení CHESTER Current slouží k monitoringu přívodu proudu do stroje. Lze tedy jednoduše rozlišit, jestli je stroj ve stavu vypnuto, stand by, nebo plné výroby. Instalace je přitom neinvazivní a jednoduchá."
+
+[[extra.faqs]]
+question = "Jak se přenáší data? Je to bezpečné?"
+answer = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvělé pokrytí včetně vnitřních prostor továren. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený a vaše data jsou v naprostém bezpečí."
+
+[[extra.faqs]]
+question = "Kde uvidíme data?"
+answer = "Běžná forma přístupu k datům je skrze námi provozovanou verzi aplikace ThingsBoard, která obsahuje široké možnosti jak jednoduše a přehledně zobrazit data. Tuto aplikaci případně můžeme nainstalovat na vaše servery. Na přání umíme udělat i integrace s dalšími aplikacemi. Samozřejmostí je také mobilní aplikace."
