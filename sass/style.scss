@@ -1,4 +1,8 @@
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
+    button {
+        padding: 5px 16px
+    }
+
     h1 {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -6,7 +10,7 @@
         font-weight: 800;
         font-size: 2rem;
     }
-    
+
     h2 {
         justify-content: center;
         font-weight: 800;
@@ -14,8 +18,14 @@
         padding-top: 20px;
         text-align: center;
     }
-    
-    p , li {
+
+    h3 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    p,
+    li {
         font-size: 1rem;
         padding-bottom: 10px;
     }
@@ -33,10 +43,10 @@
     }
 
     .report_bg {
-        height: auto; 
-        max-width: 100%; 
+        height: auto;
+        max-width: 100%;
         display: block;
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-top: 40px;
     }
 
@@ -55,7 +65,7 @@
         justify-content: center;
     }
 
-    .customers_logos > img {
+    .customers_logos>img {
         max-width: 300px;
         margin: 0 auto;
     }
@@ -66,21 +76,30 @@
         gap: 25px;
     }
 
-    .monitoring >img {
+    .monitoring>img {
         display: block;
         margin: 0 auto;
         padding-bottom: 25px;
     }
 
-    .data > img {
-        height: auto; 
-        max-width: 100%; 
+    .data>img {
+        height: auto;
+        max-width: 100%;
         display: block;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
+
 }
 
 @media (min-width: 768px) {
+    .icon {
+        height: 53px;
+    }
+
+    button {
+        padding: 0 16px;
+    }
+
     h1 {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -88,7 +107,7 @@
         font-weight: 900;
         font-size: 2.5rem;
     }
-    
+
     h2 {
         justify-content: center;
         font-weight: 900;
@@ -96,11 +115,12 @@
         padding-top: 20px;
         text-align: center;
     }
-    
-    p , li {
+
+    p,
+    li {
         font-size: 1.25rem;
         padding-bottom: 10px;
-    
+
     }
 
     #opening {
@@ -111,7 +131,7 @@
         align-items: flex-start;
     }
 
-    .introduction > h1{
+    .introduction>h1 {
         line-height: 68px;
         font-size: 4rem;
         padding-top: 20px;
@@ -138,7 +158,7 @@
         gap: 35px;
     }
 
-    .customers_logos > img {
+    .customers_logos>img {
         width: 150px;
     }
 
@@ -157,7 +177,7 @@
         align-items: flex-start;
     }
 
-    .monitoring > img {
+    .monitoring>img {
         object-fit: contain;
     }
 
@@ -172,14 +192,14 @@
         gap: 30px;
         align-items: flex-start;
     }
-    
-    .data > img {
+
+    .data>img {
         width: 50%;
         height: auto;
         object-fit: contain;
         margin-top: 40px;
     }
-    
+
     .data_text {
         padding: 0 25px;
         width: 50%;
@@ -188,15 +208,16 @@
     .reverse {
         flex-direction: row-reverse;
     }
-    
-    .data_text >h2 {
+
+    .data_text>h2 {
         text-align: left;
     }
 
     .drop_down_header {
         padding: 0px 25px;
+        font-size: 1.5rem;
     }
-    
+
 }
 
 body {
@@ -214,7 +235,7 @@ section {
     margin-top: 80px;
 }
 
-article > section:first-of-type {
+article>section:first-of-type {
     margin-top: 40px;
 }
 
@@ -249,7 +270,7 @@ a {
     padding: 0 56px;
 }
 
-.sticky_scroll{
+.sticky_scroll {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -267,6 +288,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 56px;
+    gap: 20px;
 }
 
 
@@ -275,13 +297,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 53px;
-}
-
-.text_hide {
-    color: transparent;
-    font: 0;
-
 }
 
 
@@ -289,11 +304,11 @@ button {
     background-color: #E30427;
     color: #FFFFFF;
     font-weight: 700;
-    padding: 0 16px;
     border: 1px solid #E30427;
     line-height: 20px;
     border-radius: 1.5rem;
     min-height: 34px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -302,16 +317,20 @@ button:hover {
 
 .card {
     padding: 25px;
-    background-color: #F2FAFF;
+    background-color: #F7F9FC;
     border: 1px solid rgba(107, 107, 106, 0.25);
     border-radius: 15px;
 }
 
-.card > i {
+.card>i {
     background-color: rgba(107, 107, 106, 0.25);
     border: 1px solid rgba(107, 107, 106, 0.25);
     border-radius: 15px;
     padding: 25px;
+}
+
+.fas {
+    color: #4f38e0;
 }
 
 .feature_header {
@@ -321,7 +340,7 @@ button:hover {
 }
 
 .background {
-    background-color: #F2FAFF;
+    background-color: #F7F9FC;
     border-top: 1px solid rgba(107, 107, 106, 0.25);
     border-bottom: 1px solid rgba(107, 107, 106, 0.25);
     padding-bottom: 60px;
@@ -343,7 +362,7 @@ button:hover {
 input {
     border: 1px solid rgba(107, 107, 106, 0.25);
     border-radius: 15px;
-    background-color: #F2FAFF;
+    background-color: #F7F9FC;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -351,7 +370,7 @@ input {
 
 }
 
-.contact_form > button {
+.contact_form>button {
     width: 100%;
     box-sizing: border-box;
     height: 40px;
@@ -364,7 +383,10 @@ input {
     gap: 10px;
 }
 
-#name, #surname, #email, #subject {
+#name,
+#surname,
+#email,
+#subject {
     height: 40px;
 }
 
@@ -377,7 +399,7 @@ summary {
 }
 
 .drop_down {
-    
+
     font-size: 1.5rem;
     cursor: pointer;
     position: relative;
@@ -411,11 +433,20 @@ details[open] .drop_down_body {
     animation: slideDown 0.3s ease-out;
 }
 
+details .fas {
+    transition: transform 0.3s ease;
+}
+
+details[open] .fas {
+    transform: rotate(180deg);
+}
+
 @keyframes slideDown {
     from {
         transform: translateY(-10%);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -423,11 +454,11 @@ details[open] .drop_down_body {
 }
 
 details {
-
     box-sizing: border-box;
     border: 1px solid rgba(107, 107, 106, 0.25);
     background-color: #FFFFFF;
     border-radius: 15px;
     margin-bottom: 25px;
-
 }
+
+
