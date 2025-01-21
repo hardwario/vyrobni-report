@@ -89,6 +89,16 @@
         margin: 0 auto;
     }
 
+    .contact_text {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .mailto {
+        display: none;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -218,6 +228,37 @@
         font-size: 1.5rem;
     }
 
+    #contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 50%;
+    }
+
+    #contact_block {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .contact_text {
+        padding-top: 0px;
+        padding-right: 10px;
+        width: 50%;
+        text-align: left;
+        text-wrap: wrap;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mailto_button {
+        display: none;
+    }
 }
 
 body {
@@ -260,7 +301,7 @@ html {
 }
 
 a {
-    color: white;
+    color: #292824;
 }
 
 .section {
@@ -462,3 +503,37 @@ details {
 }
 
 
+#contact {
+    gap: 60px;
+}
+
+#contact_block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 1px solid #292824;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile_img {
+    padding-left: auto;
+    padding-right: auto;
+    width: 75%;
+    border-radius: 50%;
+}
+
+.profile_text {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.contact_text {
+    font-size: 2rem;
+    font-weight: 700;
+}
