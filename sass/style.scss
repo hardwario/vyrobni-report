@@ -277,6 +277,17 @@
     .mailto_button {
         display: none;
     }
+
+    .flex {
+        display: flex;
+        gap: 30px;
+        vertical-align: middle;
+    }
+
+    .download_button {
+     margin-top: auto;
+     margin-bottom: auto;       
+    }
 }
 
 body {
