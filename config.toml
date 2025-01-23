@@ -33,12 +33,12 @@ text = "Pokud nebudete spokojeni, můžete nám zařízení do 100 dnů vrátit.
 [[extra.features]]
 icon = "fa-chart-line"
 title = "Efektivita výroby"
-text = "Měřte takt, kvalitu => sledujte OEE"
+text = "Měřte takt stroje, kvalitu a další parametry – sledujte OEE"
 
 [[extra.features]]
 icon = "fa-mobile-alt"
 title = "Notifikace a eskalace"
-text = "Sledujte notifikace v mobilních aplikaci"
+text = "Sledujte notifikace v mobilní aplikaci i na počítači"
 
 [[extra.features]]
 icon = "fa-chart-bar"
@@ -54,8 +54,6 @@ text = "Sledování vnitřního prostředí má velký vliv na kvalitu výroby"
 icon = "fa-puzzle-piece"
 title = "Integrace"
 text = "Naše API Vám umožní jednoduchou integraci s dalšími systémy"
-
-
 
 [[extra.features]]
 icon = "fa-tachometer-alt"
