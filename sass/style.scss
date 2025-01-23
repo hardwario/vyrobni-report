@@ -218,7 +218,6 @@
         width: 50%;
         height: auto;
         object-fit: contain;
-        margin-top: 40px;
     }
 
     .data_text {
@@ -245,7 +244,6 @@
     }
 
     .profile {
-        padding-top: 45px;
         width: 50%;
     }
 
@@ -523,7 +521,7 @@ details {
     gap: 60px;
 }
 
-#contact_block {
+.contact_form {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
