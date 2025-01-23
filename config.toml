@@ -38,7 +38,7 @@ text = "Měřte takt stroje, kvalitu a další parametry – sledujte OEE"
 [[extra.features]]
 icon = "fa-mobile-alt"
 title = "Notifikace a eskalace"
-text = "Sledujte notifikace v mobilní aplikaci i na počítači"
+text = "Sledujte notifikace kde potřebujete - v mobilní aplikaci i na počítači"
 
 [[extra.features]]
 icon = "fa-chart-bar"
