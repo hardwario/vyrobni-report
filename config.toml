@@ -41,23 +41,25 @@ title = "Notifikace a eskalace"
 text = "Sledujte notifikace v mobilních aplikaci"
 
 [[extra.features]]
-icon = "fa-temperature-high"
-title = "Environmentální monitoring"
-text = "Sledování vnitřního prostředí má velký vliv na kvalitu výroby"
-
-[[extra.features]]
 icon = "fa-chart-bar"
 title = "Analytika a reporting"
 text = "Sledujte stav kdykoliv potřebujete, ne jen ve chvílích kdy někdo sestaví a přinese report"
+
+[[extra.features]]
+icon = "fa-temperature-high"
+title = "Environmentální monitoring (na přání)"
+text = "Sledování vnitřního prostředí má velký vliv na kvalitu výroby"
 
 [[extra.features]]
 icon = "fa-puzzle-piece"
 title = "Integrace"
 text = "Naše API Vám umožní jednoduchou integraci s dalšími systémy"
 
+
+
 [[extra.features]]
 icon = "fa-tachometer-alt"
-title = "Spotřeby energií"
+title = "Spotřeby energií (na přání)"
 text = "Sledujte online spotřebu elektřiny, vody, vzduchu či plynu."
 
 [[extra.faqs]]
