@@ -99,17 +99,49 @@
         display: none;
     }
 
+    .thankyou_form {
+        margin: 25px;
+    }
+
+    .thankyou_logo {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
     .introduction>h1 {
         font-size: 3rem;
     }
+
+    .thankyou_form {
+        max-width: 80%;
+        margin: 25px auto;
+    }
+
+    .thankyou_logo {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 950px) {
     .introduction>h1 {
         font-size: 4rem;
+    }
+
+
+    .thankyou_form {
+        max-width: 50%;
+        margin: 25px auto;
+    }
+
+    .thankyou_logo {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -288,6 +320,8 @@
      margin-top: auto;
      margin-bottom: auto;       
     }
+
+
 }
 
 body {
@@ -569,4 +603,19 @@ details {
 .contact_text {
     font-size: 2rem;
     font-weight: 700;
+}
+
+
+.thankyou_form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid rgba(107, 107, 106, 0.25);
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.thankyou_button {
+    margin-top: 20px;
 }
