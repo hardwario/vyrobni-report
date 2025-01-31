@@ -318,6 +318,7 @@ body {
     text-align: left;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 section {
@@ -592,7 +593,7 @@ details {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    border: 1px solid rgba(107, 107, 106, 0.25);
+    border: 1px solid #292824;
     border-radius: 15px;
     justify-content: center;
     text-align: center;
