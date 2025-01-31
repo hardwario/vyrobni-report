@@ -100,14 +100,9 @@
     }
 
     .thankyou_form {
-        margin: 25px;
+        margin: 40px 25px;
     }
 
-    .thankyou_logo {
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
@@ -117,14 +112,9 @@
 
     .thankyou_form {
         max-width: 80%;
-        margin: 25px auto;
+        margin: 80px auto;
     }
 
-    .thankyou_logo {
-        max-width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media (min-width: 950px) {
@@ -135,14 +125,9 @@
 
     .thankyou_form {
         max-width: 50%;
-        margin: 25px auto;
+        margin: 80px auto;
     }
 
-    .thankyou_logo {
-        max-width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media (min-width: 768px) {
@@ -618,4 +603,11 @@ details {
 
 .thankyou_button {
     margin-top: 20px;
+}
+
+.thankyou_logo {
+    max-height: 50px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
