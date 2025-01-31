@@ -8,7 +8,7 @@
         </div>
 
         <div>
-            <a href="#contact"><button>Chci osobní konzultaci</button></a>
+            <a href="#contact"><button>Chci osobní konzultaci ZDARMA</button></a>
         </div>
     </header>
 </div>
@@ -17,17 +17,16 @@
 
     <section id="opening" class="section">
         <div class="introduction">
-            <h1>Bezdrátový<br> IoT monitoring<br> vaší výroby</h1>
-            <p>Snadný, bezpečný a dostupný monitoring je nezbytný pro každou výrobu. Kromě okamžitého přehledu o stavu
-                výroby, přináší nemalé finanční úspory. Například díky možnosti lépe plánovat údržbu.</p>
-            <p>Nelamte si hlavu s tím jak sbírat data pro analýzu vaší výroby. Už jsme to vymysleli pro vás.</p>
-            <p>Instalace probíhá rychle a bez nutnosti jakéhokoliv zásahu do vaší IT infrastruktury.</p>
+            <h1>Ušetřete až <br>20% díky bezdrátovému IoT monitoringu vaší výroby</h1>
+            <p>Snadný, bezpečný a cenově dostupný monitoring je klíčem k efektivní výrobě. Poskytuje nejen okamžitý přehled o jejím stavu, ale především pomáhá výrazně snížit náklady – například díky lepšímu plánování údržby a eliminaci nečekaných výpadků.</p>
+            <p>Už nemusíte přemýšlet, jak efektivně sbírat a analyzovat výrobní data – máme pro vás řešení, které vám usnadní práci.</p>
+            <p>Instalace je rychlá, bezproblémová a nevyžaduje žádné zásahy do vaší IT infrastruktury.</p>
         </div>
         <img class="report_bg" src="images/vyrobni-report.svg" width="800" height="650" alt="Bezdrátový monitoring">
     </section>
 
     <section class="customers section">
-        <p>Naše monitorovací řešení již využívají například tito zákazníci:</p>
+        <p>Mezi naše spokojené zákazníky, kteří již využívají naše monitorovací řešení, patří například:</p>
         <div class="customers_logos">
             <img src="images/tpca.svg" alt="Logo T|P|C|A">
             <img src="images/tokoz.svg" alt="Logo Tokoz">
@@ -36,6 +35,8 @@
         </div>
     </section>
 
+
+{#
     <section class="section">
         <div class="cards">
             {% for card in config.extra.cards %}
@@ -47,11 +48,16 @@
             {% endfor %}
         </div>
     </section>
+#}
+
+<section class="section flex">
+    <h3> Stáhněte si případovou studii a zjistěte, jak jsme pomohli snížit náklady našim klientům</h3>
+    <a href="download/hardwario-case-study-andon-system.pdf" download="hardwario-case-study-andon-system" class="download_button"><button>STÁHNOUT</button></a>
+</section>
 
     <section class="background">
         <div class="section">
-            <h2>Funkce IoT monitoringu</h2>
-            <p>Máme pro vás připraveno mnoho nástrojů, které Vám pomůžou s monitoringem výroby.</p>
+            <h2>Základní funkce IoT monitoringu</h2>
             <div class="monitoring">
                 <img src="images/Chester-mobile.webp" alt="Chester app">
                 <div class="features">
@@ -69,41 +75,43 @@
         </div>
     </section>
 
-    <section class="section data">
-        <img src="images/Counter.webp" alt="Chester Counter">
+    <section class="section data reverse">
+        <img class="data_image" src="images/Counter.webp" alt="Chester Counter">
         <div class="data_text">
             <h2>Detailní data o každém stroji</h2>
-            <p>Můžete ihned využívat předpřipravené dashboardy a nebo vám připravíme dashboard na přání.</p>
+            <p>Všechna data uvidíte přehledně v přizpůsobitelném dashboardu. Můžete využít předpřipravené řešení, nebo vám dashboard upravíme na míru vašim potřebám</p>
         </div>
     </section>
-
+{#
     <section class="section data reverse">
         <img src="images/Motion-just-graphs.webp" alt="Chester Motion">
         <div class="data_text">
             <h2>Monitorujte výrobu ze všech možných úhlů</h2>
-            <p>Potřebujete například vědět v jaké uličce ve vaší výrobě je největší frekvence průchodů? Není problém, i
-                taková data je možné snímat a zobrazit přehlednou formou.</p>
+            <p>Chcete mít kupříkladu přehled o tom, která ulička ve vaší výrobě je nejvytíženější? Žádný problém! I tato data lze snadno monitorovat a zobrazit v přehledném dashboardu.</p>
         </div>
     </section>
+    #}
 
-    <section class="section data">
-        <img src="images/Push.png" class="chester_push" alt="Chester Push">
+    <section class="background" >
+        <div class="section">
+        <h2 class="monitoring_heading">Základní sada pro monitoring nyní za zvýhodněnou cenu</h2>
+        <p>Připravili jsme pro vás speciální zaváděcí nabídku, která vám usnadní start s naším řešením.</p>
+        <p>Jednotná cena pro jednu z těchto základních sad je pouze: <strong>
+            29.000 Kč
+        </strong></p>
+            
+            <p>Cena konektivity a cloudové službě na dobu 3 roky ke každé sadě je: <strong>
+                990 Kč/rok
+            </strong></p>
+            <p class="prize">
+                
+            </p>
+        <div class="section data">
+        <img src="images/chester-push.webp" class="chester_push" alt="Chester Push">
         <div class="data_text">
-            <h2>Základní sada pro monitoring nyní za zvýhodněnou cenu</h2>
-            <p>Na závěr roku jsme pro vás připravili speciální akční nabídku.</p>
-            <p>Jednotná cena pro jednu z těchto základních sad je pouze:</p>
-            <p class="prize">
-                <strong>
-                    29.000 Kč
-                </strong>
-            </p>
-            <p>Cena konektivity a cloudové službě na dobu 3 roky ke každé sadě je:</p>
-            <p class="prize">
-                <strong>
-                    990 Kč/rok
-                </strong>
-            </p>
-            <p>Můžete si vybrat z následujících sad:</p>
+           
+            
+            <p><strong>Můžete si vybrat z následujících sad:</p></strong>
             <ul>
                 <li>Sada <strong>Výrobní TAKT</strong><br>(2 x CHESTER Counter)</li>
                 <li>Sada <strong>Výrobní ANDON</strong><br>(2 x CHESTER Push)</li>
@@ -113,10 +121,15 @@
             </ul>
             <p><i>Poznámka: Všechny ceny jsou uvedeny bez DPH.</i></p>
         </div>
+    </div>
+</div>
     </section>
 
-    <section class="section" id="contact">
-        <div id="contact_block">
+    <section id="contact" class="section" >
+
+        <div class="contact_form">
+            <h2>Rezervujte si schůzku zdarma – nabídka platí do naplnění kapacit</h2>
+            <div class="contact_block">
             <div class="profile">
                 <img class="profile_img" src="images/rene.avif" alt="René Gubančok">
                 <p class="profile_text">
@@ -128,7 +141,7 @@
 
             </div>
             <div class="contact_text">
-                <h3>Domluvte si schůzku zdarma do naplnění kapacit</h3>
+
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
                 <script>
                     hbspt.forms.create({
@@ -137,6 +150,7 @@
                     });
                 </script>
             </div>
+        </div>
         </div>
     </section>
 

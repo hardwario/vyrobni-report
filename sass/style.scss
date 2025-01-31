@@ -99,6 +99,35 @@
         display: none;
     }
 
+    .thankyou_form {
+        margin: 40px 25px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .introduction>h1 {
+        font-size: 3rem;
+    }
+
+    .thankyou_form {
+        max-width: 80%;
+        margin: 80px auto;
+    }
+
+}
+
+@media (min-width: 950px) {
+    .introduction>h1 {
+        font-size: 4rem;
+    }
+
+
+    .thankyou_form {
+        max-width: 50%;
+        margin: 80px auto;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -143,7 +172,6 @@
 
     .introduction>h1 {
         line-height: 68px;
-        font-size: 4rem;
         padding-top: 20px;
     }
 
@@ -183,12 +211,16 @@
 
     .monitoring {
         display: flex;
-        gap: 30px;
+        gap: 100px;
         align-items: flex-start;
     }
 
     .monitoring>img {
         object-fit: contain;
+    }
+
+    .monitoring_heading {
+        text-align: left;
     }
 
     .features {
@@ -207,11 +239,14 @@
         width: 50%;
         height: auto;
         object-fit: contain;
+    }
+
+    .data_image {
         margin-top: 40px;
     }
 
     .data_text {
-        padding: 0 25px;
+        padding-right: 25px;
         width: 50%;
     }
 
@@ -237,7 +272,7 @@
         width: 50%;
     }
 
-    #contact_block {
+    .contact_block {
         display: flex;
         flex-direction: row;
         gap: 30px;
@@ -259,6 +294,19 @@
     .mailto_button {
         display: none;
     }
+
+    .flex {
+        display: flex;
+        gap: 30px;
+        vertical-align: middle;
+    }
+
+    .download_button {
+     margin-top: auto;
+     margin-bottom: auto;       
+    }
+
+
 }
 
 body {
@@ -270,6 +318,7 @@ body {
     text-align: left;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 section {
@@ -442,6 +491,10 @@ summary {
     list-style: none;
 }
 
+details > summary::-webkit-details-marker {
+    display: none;
+  }
+
 .drop_down {
 
     font-size: 1.5rem;
@@ -506,11 +559,8 @@ details {
 }
 
 
-#contact {
-    gap: 60px;
-}
 
-#contact_block {
+.contact_form {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -539,4 +589,31 @@ details {
 .contact_text {
     font-size: 2rem;
     font-weight: 700;
+}
+
+
+.thankyou_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+
+}
+
+.thankyou_button {
+    margin-top: 20px;
+}
+
+.thankyou_logo {
+    max-height: 50px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thankyou_container {
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
 }
