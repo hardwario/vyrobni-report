@@ -599,6 +599,8 @@ details {
     border-radius: 15px;
     justify-content: center;
     text-align: center;
+    flex: 1;
+
 }
 
 .thankyou_button {
@@ -613,5 +615,7 @@ details {
 }
 
 .thankyou_container {
-    min-height: 80vh
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
 }
