@@ -272,7 +272,7 @@
         width: 50%;
     }
 
-    #contact_block {
+    .contact_block {
         display: flex;
         flex-direction: row;
         gap: 30px;
@@ -555,9 +555,6 @@ details {
 }
 
 
-#contact {
-    gap: 60px;
-}
 
 .contact_form {
     padding-top: 30px;
