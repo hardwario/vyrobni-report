@@ -47,7 +47,7 @@
         max-width: 100%;
         display: block;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .drop_down_header {
@@ -68,10 +68,6 @@
     .customers_logos>img {
         max-width: 150px;
         margin: 0 auto;
-    }
-
-    .hidden {
-        display: none;
     }
 
     .cards {
@@ -232,7 +228,7 @@
     }
 
     .report_bg {
-        width: 50%;
+        width: 40%;
         padding: 0 15px;
         object-fit: contain;
         vertical-align: top;
@@ -586,6 +582,7 @@ details > summary::-webkit-details-marker {
 
 .drop_down_body > p {
     padding-bottom: 0px;
+    margin-top: 0px;
 }
 
 details[open] .drop_down_body {

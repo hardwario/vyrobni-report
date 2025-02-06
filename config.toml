@@ -62,16 +62,24 @@ text = "Sledujte online spotřebu elektřiny, vody, vzduchu či plynu."
 
 [[extra.faqs]]
 question = "Jak probíhá instalace?"
-answer = "Instalace je velmi jednoduchá. Skoro každý stroj má nějaké signály, pomocí kterých lze vyhodnotit jestli stroj dokončil výrobu produktu OK nebo NOK. Pokud ani takový signál není k dispozici, lze použít doplňující senzor nebo tlačítko, kterým se výroba kusu identifikuje."
+answer = "Instalace je velmi jednoduchá. Většina strojů poskytuje signály, které umožňují určit, zda byl výrobek dokončen jako OK nebo NOK. Pokud takový signál není k dispozici, lze použít doplňující senzor nebo tlačítko pro identifikaci dokončení výroby."
 
 [[extra.faqs]]
 question = "Je možné sledovat i výrobu kontinuálních strojů jako je CNC?"
-answer = "Ano, naše zařízení CHESTER Current slouží k monitoringu přívodu proudu do stroje. Lze tedy jednoduše rozlišit, jestli je stroj ve stavu vypnuto, stand by, nebo plné výroby. Instalace je přitom neinvazivní a jednoduchá."
+answer = "Ano, naše zařízení CHESTER Current monitoruje přívod proudu do stroje, což umožňuje snadno rozlišit, zda je ve stavu vypnuto, stand-by nebo v plné výrobě. Instalace je neinvazivní a velmi jednoduchá."
 
 [[extra.faqs]]
 question = "Jak se přenáší data? Je to bezpečné?"
-answer = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvělé pokrytí včetně vnitřních prostor továren. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený a vaše data jsou v naprostém bezpečí."
+answer = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M, které zajišťují skvělé pokrytí i uvnitř továren. Síť je zcela nezávislá na vaší interní infrastruktuře, přenos je zabezpečený a vaše data jsou v naprostém bezpečí."
 
 [[extra.faqs]]
 question = "Kde uvidíme data?"
-answer = "Běžná forma přístupu k datům je skrze námi provozovanou verzi aplikace ThingsBoard, která obsahuje široké možnosti jak jednoduše a přehledně zobrazit data. Tuto aplikaci případně můžeme nainstalovat na vaše servery. Na přání umíme udělat i integrace s dalšími aplikacemi. Samozřejmostí je také mobilní aplikace."
+answer = "Data můžete snadno sledovat v naší aplikaci ThingsBoard, kterou lze volitelně instalovat na vaše servery. Nabízíme také integrace s dalšími systémy a mobilní aplikaci. Přehled získáte ve webovém prohlížeči nebo formou automatizovaného reportu do e-mailu jako Excel tabulku."
+
+#[[extra.faqs]]
+#question = "Jak zavést monitoring výroby?"
+#answer = "Sledování taktu stroje nebo výkonu výrobní #linky – Připojením k PLC systému nebo doplňkovým #senzorem získáte přehled o chodu výroby. Měření spotřeby #energie – Neinvazivní metoda, která kromě spotřeby #odhalí i využití stroje v čase. Robusní tlačítkový #systém pro operátory – Rychlá signalizace poruch a #požadavků na asistenci minimalizuje prostoje a ukládá #události digitálně."
+
+[[extra.faqs]]
+question = "Proč je VÝROBNÍ REPORT unikátní?"
+answer = "Instalace je rychlá, neinvazivní a nevyžaduje součinnost IT oddělení. Využíváme moderní zabezpečenou rádiovou komunikaci."
