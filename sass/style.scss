@@ -61,13 +61,17 @@
     .customers_logos {
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        gap: 20px;
         justify-content: center;
     }
 
     .customers_logos>img {
-        max-width: 300px;
+        max-width: 150px;
         margin: 0 auto;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .cards {
@@ -76,15 +80,34 @@
         gap: 25px;
     }
 
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex > h3 {
+        margin-top: 0px;
+    }
+
+    .download_button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .monitoring>img {
         display: block;
         margin: 0 auto;
         padding-bottom: 25px;
     }
 
+    .data {
+        padding: 0px;
+    }
+
     .data>img {
         height: auto;
-        max-width: 100%;
+        max-width: 80%;
         display: block;
         margin: 0 auto;
     }
@@ -103,6 +126,16 @@
         margin: 40px 25px;
     }
 
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
@@ -525,6 +558,10 @@ details > summary::-webkit-details-marker {
     padding: 0 30px;
 }
 
+.drop_down_body > p {
+    padding-bottom: 0px;
+}
+
 details[open] .drop_down_body {
     display: block;
     animation: slideDown 0.3s ease-out;
@@ -580,10 +617,16 @@ details {
     border-radius: 50%;
 }
 
-.profile_text {
+.profile_text_wrapper {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
 
+.profile_text {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .contact_text {
