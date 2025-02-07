@@ -47,8 +47,8 @@ text = "Sledujte stav kdykoliv potřebujete, ne jen ve\u00A0chvílích kdy někd
 
 [[extra.features]]
 icon = "fa-temperature-high"
-title = "Environmentální monitoring (na přání)"
-text = "Sledování vnitřního prostředí má velký vliv na\u00A0kvalitu výroby"
+title = "Environmentální monitoring"
+text = "Sledování vnitřního prostředí má velký vliv na\u00A0kvalitu výroby (na přání)"
 
 [[extra.features]]
 icon = "fa-puzzle-piece"
@@ -57,8 +57,8 @@ text = "Naše API Vám umožní jednoduchou integraci s\u00A0dalšími systémy"
 
 [[extra.features]]
 icon = "fa-tachometer-alt"
-title = "Spotřeby energií (na přání)"
-text = "Sledujte online spotřebu elektřiny, vody, vzduchu či\u00A0plynu."
+title = "Spotřeby energií"
+text = "Sledujte online spotřebu elektřiny, vody, vzduchu či\u00A0plynu (na přání)"
 
 [[extra.faqs]]
 question = "Jak probíhá instalace?"
