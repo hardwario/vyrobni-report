@@ -17,10 +17,10 @@
 
     <section id="opening" class="section">
         <div class="introduction">
-            <h1>Ušetřete v průměru 20% díky IoT monitoringu vaší výroby</h1>
-            <p>Výrobní manažeři docílí v průměru 20 % zvýšení produkce či efektivity výroby. Jak? Díky jednoduché a cenově dostupné digitalizaci v rámci programu VÝROBNÍ REPORT.</p>
-            <p>Nemusíte přemýšlet, jak efektivně sbírat a analyzovat výrobní data – máme pro vás řešení, které vám usnadní práci.</p>
-            <p>Instalace je rychlá, bezproblémová a nevyžaduje žádné zásadní zásahy do vaší IT infrastruktury.</p>
+            <h1>Ušetřete průměrně 20% díky IoT monitoringu vaší&nbsp;výroby</h1>
+            <p>Výrobní manažeři docílí v průměru 20% zvýšení produkce či&nbsp;efektivity výroby. Jak? Díky jednoduché a cenově dostupné digitalizaci v rámci programu VÝROBNÍ REPORT.</p>
+            <p>Nemusíte přemýšlet, jak efektivně sbírat a&nbsp;analyzovat výrobní data – máme pro&nbsp;vás řešení, které vám usnadní práci.</p>
+            <p>Instalace je rychlá, bezproblémová a&nbsp;nevyžaduje žádné zásadní zásahy do vaší IT infrastruktury.</p>
         </div>
         <img class="report_bg" src="images/vyrobni-report.webp" width="800" height="650" alt="Bezdrátový monitoring">
     </section>
@@ -50,7 +50,7 @@
 #}
 
 <section class="section flex">
-    <h3> Stáhněte si případovou studii a zjistěte, jak jsme pomohli snížit náklady našim klientům</h3>
+    <h3> Stáhněte si případovou studii a&nbsp;zjistěte, jak jsme pomohli snížit náklady našim klientům</h3>
     <a class="download_button" href="download/hardwario-case-study-andon-system.pdf" download="hardwario-case-study-andon-system"><button class="download_button">STÁHNOUT STUDII</button></a>
 </section>
 
@@ -82,28 +82,19 @@
             <p>Všechna data uvidíte přehledně v přizpůsobitelném dashboardu. Můžete využít předpřipravené řešení, nebo vám dashboard upravíme na míru vašim potřebám</p>
         </div>
     </section>
-{#
-    <section class="section data reverse">
-        <img src="images/Motion-just-graphs.webp" alt="Chester Motion">
-        <div class="data_text">
-            <h2>Monitorujte výrobu ze všech možných úhlů</h2>
-            <p>Chcete mít kupříkladu přehled o tom, která ulička ve vaší výrobě je nejvytíženější? Žádný problém! I tato data lze snadno monitorovat a zobrazit v přehledném dashboardu.</p>
-        </div>
-    </section>
-    #}
 
     <section class="background" >
         <div class="section">
-            <h2 class="monitoring_heading">Základní sada pro monitoring nyní za zvýhodněnou cenu</h2>
-            <p>Připravili jsme pro vás speciální zaváděcí nabídku, která vám usnadní start s naším řešením.</p>
+            <h2 class="monitoring_heading">Základní sada pro&nbsp;monitoring nyní za&nbsp;zvýhodněnou cenu</h2>
+            <p>Připravili jsme pro vás speciální zaváděcí nabídku, která vám usnadní start s&nbsp;naším řešením.</p>
             <p>Jednotná cena pro jednu z těchto základních sad je pouze: <strong>
-            29.000 Kč</strong></p>
+            29.000&nbsp;Kč</strong></p>
             
-            <p>Cena konektivity a cloudové službě na dobu 3 roky ke každé sadě je: <strong>990 Kč/rok</strong></p>
+            <p>Cena konektivity a cloudové službě na&nbsp;dobu 3 roky ke každé sadě je: <strong>990&nbsp;Kč/rok</strong></p>
             <div class="data">
                 <img class="chester_image" src="images/chester-push.webp" class="chester_push" alt="Chester Push">
                 <div class="data_text">
-                    <p><strong>Můžete si vybrat z následujících sad:</p></strong>
+                    <p><strong>Můžete si vybrat z&nbsp;následujících sad:</p></strong>
                     <ul>
                         <li>Sada <strong>Výrobní TAKT</strong><br>(2 x CHESTER Counter)</li>
                         <li>Sada <strong>Výrobní ANDON</strong><br>(2 x CHESTER Push)</li>
@@ -162,7 +153,15 @@
                             </h3>
                         </summary>
                         <div class="drop_down_body">
-                            <p>{{ faq.answer }}</p>
+                            {% if faq.answer is iterable %}
+                                <ul>
+                                    {% for item in faq.answer %}
+                                        <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p>{{ faq.answer }}</p>
+                            {% endif %}
                         </div>
                     </details>
                 </div>

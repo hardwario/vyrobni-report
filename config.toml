@@ -18,68 +18,72 @@ highlight_code = true
 [[extra.cards]]
 icon = "fa-code-branch"
 title = "Rychle a bezstarostně"
-text = "Instalaci zahájíme do 30 dnů a potrvá jen desítky minut. Provoz omezíme minimálně, nebo vůbec."
+text = "Instalaci zahájíme do 30 dnů a\u00A0potrvá jen desítky minut. Provoz omezíme minimálně, nebo\u00A0vůbec."
 
 [[extra.cards]]
 icon = "fa-chart-line"
 title = "Okamžitá data z provozu"
-text = "Ihned po instalaci uvidíte data z výroby ve vašem telefonu i počítači."
+text = "Ihned po instalaci uvidíte data z\u00A0výroby ve vašem telefonu i\u00A0počítači."
 
 [[extra.cards]]
 icon = "fa-child"
 title = "Záruka spokojenosti"
-text = "Pokud nebudete spokojeni, můžete nám zařízení do 100 dnů vrátit."
+text = "Pokud nebudete spokojeni, můžete nám zařízení do\u00A0100 dnů vrátit."
 
 [[extra.features]]
 icon = "fa-chart-line"
 title = "Efektivita výroby"
-text = "Měřte takt stroje, kvalitu a další parametry – sledujte OEE"
+text = "Měřte takt stroje, kvalitu a\u00A0další parametry – sledujte OEE"
 
 [[extra.features]]
 icon = "fa-mobile-alt"
 title = "Notifikace a eskalace"
-text = "Sledujte notifikace kde potřebujete - v mobilní aplikaci i na počítači"
+text = "Sledujte notifikace kde potřebujete\u00A0- v\u00A0mobilní aplikaci i\u00A0na\u00A0počítači"
 
 [[extra.features]]
 icon = "fa-chart-bar"
 title = "Analytika a reporting"
-text = "Sledujte stav kdykoliv potřebujete, ne jen ve chvílích kdy někdo sestaví a přinese report"
+text = "Sledujte stav kdykoliv potřebujete, ne jen ve\u00A0chvílích kdy někdo sestaví a\u00A0přinese report"
 
 [[extra.features]]
 icon = "fa-temperature-high"
 title = "Environmentální monitoring (na přání)"
-text = "Sledování vnitřního prostředí má velký vliv na kvalitu výroby"
+text = "Sledování vnitřního prostředí má velký vliv na\u00A0kvalitu výroby"
 
 [[extra.features]]
 icon = "fa-puzzle-piece"
 title = "Integrace"
-text = "Naše API Vám umožní jednoduchou integraci s dalšími systémy"
+text = "Naše API Vám umožní jednoduchou integraci s\u00A0dalšími systémy"
 
 [[extra.features]]
 icon = "fa-tachometer-alt"
 title = "Spotřeby energií (na přání)"
-text = "Sledujte online spotřebu elektřiny, vody, vzduchu či plynu."
+text = "Sledujte online spotřebu elektřiny, vody, vzduchu či\u00A0plynu."
 
 [[extra.faqs]]
 question = "Jak probíhá instalace?"
-answer = "Instalace je velmi jednoduchá. Většina strojů poskytuje signály, které umožňují určit, zda byl výrobek dokončen jako OK nebo NOK. Pokud takový signál není k dispozici, lze použít doplňující senzor nebo tlačítko pro identifikaci dokončení výroby."
+answer = "Instalace je velmi jednoduchá. Většina strojů poskytuje signály, které umožňují určit, zda byl výrobek dokončen jako OK nebo NOK. Pokud takový signál není k\u00A0dispozici, lze použít doplňující senzor nebo\u00A0tlačítko pro\u00A0identifikaci dokončení výroby."
 
 [[extra.faqs]]
 question = "Je možné sledovat i výrobu kontinuálních strojů jako je CNC?"
-answer = "Ano, naše zařízení CHESTER Current monitoruje přívod proudu do stroje, což umožňuje snadno rozlišit, zda je ve stavu vypnuto, stand-by nebo v plné výrobě. Instalace je neinvazivní a velmi jednoduchá."
+answer = "Ano, naše zařízení CHESTER Current monitoruje přívod proudu do\u00A0stroje, což umožňuje snadno rozlišit, zda je ve\u00A0stavu vypnuto, stand-by nebo v\u00A0plné výrobě. Instalace je neinvazivní a\u00A0velmi jednoduchá."
 
 [[extra.faqs]]
 question = "Jak se přenáší data? Je to bezpečné?"
-answer = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M, které zajišťují skvělé pokrytí i uvnitř továren. Síť je zcela nezávislá na vaší interní infrastruktuře, přenos je zabezpečený a vaše data jsou v naprostém bezpečí."
+answer = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M, které zajišťují skvělé pokrytí i\u00A0uvnitř továren. Síť je zcela nezávislá na vaší interní infrastruktuře, přenos je zabezpečený a\u00A0vaše data jsou v naprostém bezpečí."
 
 [[extra.faqs]]
 question = "Kde uvidíme data?"
-answer = "Data můžete snadno sledovat v naší aplikaci ThingsBoard, kterou lze volitelně instalovat na vaše servery. Nabízíme také integrace s dalšími systémy a mobilní aplikaci. Přehled získáte ve webovém prohlížeči nebo formou automatizovaného reportu do e-mailu jako Excel tabulku."
+answer = "Data můžete snadno sledovat v\u00A0naší aplikaci ThingsBoard, kterou lze volitelně instalovat na\u00A0vaše servery. Nabízíme také integrace s\u00A0dalšími systémy a\u00A0mobilní aplikaci. Přehled získáte ve\u00A0webovém prohlížeči nebo formou automatizovaného reportu do\u00A0e-mailu jako Excel tabulku."
 
-#[[extra.faqs]]
-#question = "Jak zavést monitoring výroby?"
-#answer = "Sledování taktu stroje nebo výkonu výrobní #linky – Připojením k PLC systému nebo doplňkovým #senzorem získáte přehled o chodu výroby. Měření spotřeby #energie – Neinvazivní metoda, která kromě spotřeby #odhalí i využití stroje v čase. Robusní tlačítkový #systém pro operátory – Rychlá signalizace poruch a #požadavků na asistenci minimalizuje prostoje a ukládá #události digitálně."
+[[extra.faqs]]
+question = "Jak zavést monitoring výroby?"
+answer = [
+    "Sledování taktu stroje nebo výkonu výrobní linky – Připojením k\u00A0PLC systému nebo\u00A0doplňkovým senzorem získáte přehled o\u00A0chodu výroby.",
+    "Měření spotřeby energie – Neinvazivní metoda, která kromě spotřeby odhalí i\u00A0využití stroje v čase.",
+    "Robusní tlačítkový systém pro\u00A0operátory – Rychlá signalizace poruch a\u00A0požadavků na asistenci minimalizuje prostoje a\u00A0ukládá události digitálně."
+    ]
 
 [[extra.faqs]]
 question = "Proč je VÝROBNÍ REPORT unikátní?"
-answer = "Instalace je rychlá, neinvazivní a nevyžaduje součinnost IT oddělení. Využíváme moderní zabezpečenou rádiovou komunikaci."
+answer = "Instalace je rychlá, neinvazivní a\u00A0nevyžaduje součinnost IT oddělení. Využíváme moderní zabezpečenou rádiovou komunikaci."
