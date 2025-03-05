@@ -1,6 +1,26 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+<script>
+    window.onload = function() {
+      fetch("https://api.linkedin.com/v2/conversionEvents", {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer YOUR_ACCESS_TOKEN",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          conversion: "YOUR_CONVERSION_ID",
+          eventName: "Page Load Conversion",
+          eventType: "PAGE_LOAD",
+          timestamp: Date.now()
+        })
+      }).then(response => console.log("LinkedIn Conversion Sent:", response))
+        .catch(error => console.error("Error sending conversion:", error));
+    };
+</script>
+
 <div class="thankyou_container">
 <div class="thankyou_form">
     <img class="thankyou_logo" src="/images/hw-logo-pos.svg"  alt="Logo Vyrobní Report">
