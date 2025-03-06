@@ -3,37 +3,24 @@
 {% block content %}
 
 <script>
-    window.onload = function() {
-      fetch("https://api.linkedin.com/v2/conversionEvents", {
-        method: "POST",
-        headers: {
-          "Authorization": "Bearer YOUR_ACCESS_TOKEN",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          conversion: "YOUR_CONVERSION_ID",
-          eventName: "Page Load Conversion",
-          eventType: "PAGE_LOAD",
-          timestamp: Date.now()
-        })
-      }).then(response => console.log("LinkedIn Conversion Sent:", response))
-        .catch(error => console.error("Error sending conversion:", error));
-    };
+  window.onload = function () {
+    window.lintrk('track', { conversion_id: 19917722 });
+  };
 </script>
-
 <div class="thankyou_container">
-<div class="thankyou_form">
-    <img class="thankyou_logo" src="/images/hw-logo-pos.svg"  alt="Logo Vyrobní Report">
+  <div class="thankyou_form">
+    <img class="thankyou_logo" src="/images/hw-logo-pos.svg" alt="Logo Vyrobní Report">
     <h1>Studie je připravena ke stažení!</h1>
     <p>Objevte, jak naši zákazníci šetří náklady a zvyšují efektivitu s IoT monitoringem.</p>
     <p>Klikněte a získejte inspiraci pro svůj byznys!</p>
 
-<div class="button_wrapper">
-    <a href="/download/hardwario-case-study-andon-system.pdf" download="hardwario-case-study-andon-system"><button class="download_case_study_button">STÁHNOUT STUDII</button></a>
-    <a href="https://vyrobni.report/"><button class="thankyou_button">ZPĚT NA VÝROBNÍ REPORT</button></a>
-</div>
+    <div class="button_wrapper">
+      <a href="/download/hardwario-case-study-andon-system.pdf" download="hardwario-case-study-andon-system"><button
+          class="download_case_study_button">STÁHNOUT STUDII</button></a>
+      <a href="https://vyrobni.report/"><button class="thankyou_button">ZPĚT NA VÝROBNÍ REPORT</button></a>
+    </div>
 
-</div>
+  </div>
 </div>
 
 
