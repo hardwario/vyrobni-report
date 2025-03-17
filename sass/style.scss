@@ -405,8 +405,9 @@
     }
 
     .lightbox img {
-        max-width: 90%;
-        max-height: 90%;
+        width: 70vw;
+        max-width: 1200px;
+        max-height: 75vh;
     }
 
     /* Aktivace modálního okna */
@@ -418,10 +419,8 @@
     /* Zavírací tlačítko */
     .lightbox a {
         position: absolute;
-        width: 30px;
-        height: 30px;
-        top: 25%;
-        right: 35px;
+        top: 15%;
+        right: 10%;
         font-size: 30px;
         color: white;
         text-decoration: none;
