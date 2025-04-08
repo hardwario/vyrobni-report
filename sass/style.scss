@@ -123,6 +123,10 @@
         display: none;
     }
 
+    .lightbox {
+        display: none;
+    }
+
     .detail_data {
         text-align: center;
     }
@@ -234,7 +238,7 @@
     }
 
     .report_bg {
-        width: 40%;
+        width: 50%;
         padding: 0 15px;
         object-fit: contain;
         vertical-align: top;
@@ -298,8 +302,15 @@
         object-fit: contain;
     }
 
+    .data_images_wrapper {
+        width: 50%;
+    }
+
     .data_image {
         margin-top: 40px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .data_image_mobile {
@@ -377,6 +388,51 @@
      margin-bottom: auto;       
     }
 
+
+    .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+
+    .lightbox img {
+        width: 70vw;
+        max-width: 1200px;
+        max-height: 75vh;
+    }
+
+    /* Aktivace modálního okna */
+    .lightbox:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* Zavírací tlačítko */
+    .lightbox a {
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #data {
+        scroll-margin: 120px;
+    }
+
+    .case_study_button {
+        min-width: 160px;
+    }
 
 }
 
