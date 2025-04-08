@@ -169,6 +169,12 @@
         flex-direction: column;
         justify-content: center;
     }
+
+
+    #case_study > h2 {
+        font-weight: 700;
+            font-size: 1rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
@@ -440,6 +446,13 @@
 
     .case_study_button {
         min-width: 160px;
+    }
+
+    #case_study > h2 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: left;
+        padding-top: 0px;
     }
 
 }
